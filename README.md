@@ -26,7 +26,9 @@ Add it to libvirt
 sudo ./make.sh --add
 ```
 
-Copy the qemu configuration in order for all things to work correctly
+Copy the qemu configuration in order for all things to work correctly.
+
+(You might want to change the UID and check if all names are correct..)
 
 ```
 cp macOS-Simple-KVM.xml /etc/libvirt/qemu/macOS-Simple-KVM.xml
