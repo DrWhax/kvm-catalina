@@ -8,6 +8,12 @@ Make sure you have the following repo cloned and ready to go:
 git clone https://github.com/foxlet/macOS-Simple-KVM
 ```
 
+If you run Debian Buster you also need some other dependencies to get this to work:
+
+
+```
+apt install libvirt-clients libvirt-daemon-system
+```
 
 Git clone
 
