@@ -2,6 +2,13 @@
 
 I wanted to play with MacOS catalina, for this I used an modern Xeon from around 2011 and 8GB of ram.
 
+Make sure you have the following repo cloned and ready to go: 
+
+```
+git clone https://github.com/foxlet/macOS-Simple-KVM
+```
+
+
 Git clone
 
 ```
