@@ -15,7 +15,7 @@ Git clone
 git clone git@github.com:DrWhax/kvm-catalina.git
 ```
 
-Follow instructions in that repo before continueing.
+Follow instructions in the "macOS-Simple-KVM" before continueing.
 
 ```
 qemu-img create -f qcow2 catalina.qcow2 64G
@@ -48,10 +48,14 @@ virsh --connect qemu:///system start macOS-Simple-KVM
 virsh --connect qemu:///system destroy macOS-Simple-KVM
 ```
 
-For VNC access:
+For VNC access (from client)
 
 ```
 ssh server -L5900:localhost:5900
 ```
 
 For VNC viewing I use ```remmina```.
+
+Use host ```localhost``` and port ```5900``` and protocol VNC.
+
+Boom you're in!
